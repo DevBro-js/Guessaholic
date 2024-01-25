@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+    <script defer src="capital.js"></script>
+    <script defer src="governor.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section class="quiz">
+      <div class="welcome-message"><h1>Welcome to Guessaholic</h1></div>
+
+      <div class="quiz__popup">
+        <div class="quiz__tab">
+          <button class="btn btn--info quiz-btn tab-0" data-tab="1">
+            User Info
+          </button>
+          <button class="btn btn--quiz quiz-btn tab-1 hidden" data-tab="2">
+            Quiz
+          </button>
+          <button
+            class="btn btn--result quiz-btn btn-results tab-2 hidden"
+            data-tab="3"
+          >
+            Result
+          </button>
+          <button class="btn btn--correction btn-results hidden" data-tab="4">
+            Correction
+          </button>
+        </div>
+        <div class="quiz__details">
+          <!--User INFO-->
+
+          <div class="quiz__username quiz__content quiz-content-0">
+            <h2 class="secondary-heading">
+              What do you wanna be identified as Champ?
+            </h2>
+            <input type="text" name="username" class="user-id" />
+
+            <div class="quiz__type">
+              <div class="quiz__selections">
+                <select name="quiz-type" id="quizType">
+                  <option value="selected" selected>Select quiz type</option>
+                  <option value="capital" data-value="0">Guess Capital</option>
+                  <option value="governor" data-value="1">
+                    Guess Governor
+                  </option>
+                  <option value="state" data-value="2">Guess State</option>
+                  <option value="country" data-value="3">Guess Country</option>
+                </select>
+              </div>
+
+              <button class="btn start__quiz" data-value="1">Start</button>
+            </div>
+          </div>
+
+          <!--ONGOING QUIZ-->
+          <div class="ongoing__quiz quiz__content quiz-content-1 hidden">
+            <div class="quiz__total">
+              <p><span class="quiz__number">1</span> 0f 10 Questions</p>
+
+              <div class="timer">
+                <span class="timer__icon"
+                  ><i class="fa-solid fa-stopwatch"></i
+                ></span>
+                <span class="timer__value">02:00s</span>
+              </div>
+            </div>
+
+            <div class="quiz__questions-container">
+              <h3 class="quiz__main-question">
+                Capital of <span class="quiz__state">Imo state</span>:
+              </h3>
+              <div class="quiz__questions">
+                <p class="questions">Ambode</p>
+                <p class="questions">Wole SOyink</p>
+                <p class="questions">Tinubu</p>
+                <p class="questions">Fela</p>
+              </div>
+            </div>
+
+            <div class="quiz__next">
+              <button
+                class="btn btn--next btn--quiz btn__next ongoing__quiz-btns"
+              >
+                Next
+              </button>
+              <button
+                class="btn btn--next btn--submit ongoing__quiz-btns hidden"
+                data-value="2"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+
+          <!--QUIZ RESULT TAB-->
+
+          <div class="quiz__result-tab quiz__content quiz-content-2 hidden">
+            <div
+              class="results-summary results-3 results"
+              id="result-correction"
+            >
+              <div class="score-container">
+                <span class="user-score scores">10</span>
+                <span class="overall-score scores">10</span>
+              </div>
+            </div>
+
+            <div class="quiz__results results-4 results" id="result_summary">
+              <div class="question-1__answer">
+                <h3>Question: Capital Of Edo</h3>
+                <p>Answer: Uyo</p>
+              </div>
+              <div class="question-1__answer">
+                <h3>Question: Capital Of Edo</h3>
+                <p>Answer: Uyo</p>
+              </div>
+              <div class="question-1__answer">
+                <h3>Question: Capital Of Edo</h3>
+                <p>Answer: Uyo</p>
+              </div>
+              <div class="question-1__answer">
+                <h3>Question: Capital Of Edo</h3>
+                <p>Answer: Uyo</p>
+              </div>
+            </div>
+
+            <div class="new__quiz">
+              <button class="btn--new-quiz btn--result" data-value="0">
+                new quiz
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
