@@ -219,6 +219,6 @@ const capital = [
     },
   ],
   {
-    quizTime: 60,
+    quizTime: 45,
   },
 ];

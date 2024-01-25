@@ -344,6 +344,6 @@ const governor = [
     },
   ],
   {
-    quizTime: 90,
+    quizTime: 60,
   },
 ];
