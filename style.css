@@ -35,11 +35,7 @@ body {
   line-height: 1.5;
   min-height: 100%;
 }
-video {
-  width: 100%;
 
-  height: 100%;
-}
 
 h1,
 h2,
@@ -49,10 +45,7 @@ h5,
 h6 {
   font-family: var(--headerFontFamil);
 }
-.video__container {
-  width: 100%;
-  height: 100%;
-}
+
 
 .overlay {
   width: 100%;
@@ -554,10 +547,6 @@ option {
     font-size: 1.2rem;
   }
 
-  .quiz__result-tab .quiz__results {
-    display: block;
-  }
-
   .quiz__total > p {
     font-size: 1.5rem;
   }
@@ -586,11 +575,8 @@ option {
     font-size: 1.3rem;
   }
 
-  video {
-    display: none;
-  }
-
-  .video__container {
-    display: none;
+  .score-container {
+    width: 20rem;
+    height: 20rem;
   }
 }
