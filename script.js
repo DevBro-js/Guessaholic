@@ -93,10 +93,13 @@ const app = function () {
     createEl3 = document.createElement("div");
 
     selectedQuestion.forEach((selection) => {
+      // let select;
+
+      // select = selection.answer;
       t = currentQuiz.find((quiz) => {
         return (
           quiz.question === selection.question &&
-          quiz.answer !== selection.answer
+          quiz.answer.slice(0, selection.answer.length) !== selection.answer
         );
       });
 

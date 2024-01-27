@@ -33,7 +33,7 @@ const bible = [
 
     {
       question: "How long was Noah's ark?",
-      option: ["250 cubits", "500 cubits", "Cross River", "100 cubits"],
+      option: ["250 cubits", "500 cubits", "300 cubits", "100 cubits"],
       answer: "300 cubits (Gen 6:15)",
     },
 
