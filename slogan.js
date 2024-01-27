@@ -244,6 +244,6 @@ const slogan = [
     },
   ],
   {
-    quizTime: 105,
+    quizTime: 60,
   },
 ];

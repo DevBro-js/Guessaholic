@@ -10,12 +10,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Quiz App</title>
     <script defer src="capital.js"></script>
     <script defer src="governor.js"></script>
     <script defer src="slogan.js"></script>
-
+    <script defer src="flag.js"></script>
     <script defer src="script.js"></script>
   </head>
   <body>
@@ -54,10 +59,11 @@
                 <select name="quiz-type" id="quizType">
                   <option value="selected" selected>Select quiz type</option>
                   <option value="capital" data-value="0">Guess Capital</option>
-                  <option value="slogan" data-value="1">
+                  <option value="flag" data-value="1">Guess Flag</option>
+                  <option value="slogan" data-value="2">
                     Guess State Slogan
                   </option>
-                  <option value="governor" data-value="2">
+                  <option value="governor" data-value="3">
                     Guess Governor
                   </option>
                 </select>

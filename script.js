@@ -49,7 +49,7 @@ const selectedQuestion = [];
 const f = [];
 const h = [];
 
-const globalArray = { capital, governor, slogan };
+const globalArray = { capital, flag, governor, slogan };
 
 const app = function () {
   let quizNumber = 1;
@@ -190,7 +190,7 @@ const app = function () {
     currentQuizOption = currentQuiz[currentRandomNumber].option;
     html = `
         <h3 class="quiz__main-question">
-          ${currentQuizQuestion}:
+          ${currentQuizQuestion}
         </h3>
       `;
 
