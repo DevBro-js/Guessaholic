@@ -385,6 +385,111 @@ const bible = [
       ],
       answer: "A cherubim and a flaming sword (Gen 3:24)",
     },
+
+    {
+      question: "Which prophet said, “Out of Egypt have I called my son”?",
+      option: ["Haggai", "Elijah", "Ahab", "Hosea"],
+      answer: "Hosea (Hos 11:1)",
+    },
+
+    {
+      question:
+        "In the parable of the Prodigal Son, what portion would the son have received?",
+      option: ["All portion", "A third", "A fifth", "Half"],
+      answer: "A third (Deut 21:17; Luke 15:12)",
+    },
+
+    {
+      question:
+        "The angel said to Mary that Jesus would “reign over the house” of which Old Testament character?",
+      option: ["Jacob", "Isaiah", "Job", "Jonah"],
+      answer: "Jacob (Luke 1:33)",
+    },
+
+    {
+      question: "How many apostles did Jesus choose?",
+      option: ["10", "12", "21", "13"],
+      answer: "12 (Luke 6:13)",
+    },
+
+    {
+      question: "'Jesus wept'",
+      option: ["Acts 1:1", "John 11:35", "John 3:16", "Deu 5:31"],
+      answer: "John 11:35",
+    },
+
+    {
+      question: "Judas betrayed Jesus for exactly how many coins of silver?",
+      option: [
+        "30 pieces of silver",
+        "100 pieces of silver",
+        "10 pieces of silver",
+        "35 pieces of silver",
+      ],
+      answer: "30 pieces of silver (Matt 26:15)",
+    },
+
+    {
+      question:
+        "After he fled for his life, which tree did Elijah sleep under?",
+      option: ["Fig tree", "Oak tree", "Grape tree", "Juniper Tree"],
+      answer: "Juniper (1 kings 19:4)",
+    },
+
+    {
+      question:
+        "How many shekels did Abraham pay to buy the field of Machpelah?",
+      option: ["10 Shekels", "5 Shekels", "400 Shekels", "1000 Shekels"],
+      answer: "400 Shekels (Genesis 23:12-16)",
+    },
+
+    {
+      question: "Who built the first altar?",
+      option: ["Noah", "Abraham", "Elijah", "David"],
+      answer: "Noah (Genesis 8:20)",
+    },
+
+    {
+      question:
+        "What occurred when Jonathan and his armor-bearer attacked the Philistines? ",
+      option: ["Fire came down", "Flood", "An earthquake", "Lightening"],
+      answer: "An earthquake (1 Samuel 14:11-15)",
+    },
+
+    {
+      question: "Who is David's father?",
+      option: ["Saul", "Jesse", "Aaron", "Moses"],
+      answer: "Jesse (1 Samuel 17:12)",
+    },
+
+    {
+      question:
+        "For what sum was Joseph sold by his brothers to the Ishmeelites?",
+      option: [
+        "10 pieces of silver",
+        "15 pieces of silver",
+        "45 pieces of silver",
+        "20 pieces of silver",
+      ],
+      answer: "20 pieces of silver (Genesis 37:28)",
+    },
+
+    {
+      question: "Which king of Judah was stricken with leprosy?",
+      option: ["Uzziah", "Solomon", "Jehoshaphat", "Ahab"],
+      answer: "Uzziah (also known as Azariah 2 Kings 15:5)",
+    },
+
+    {
+      question: "What was the last plague on Egypt?",
+      option: [
+        "Locust",
+        "Water turning to blood",
+        "hail",
+        "The death of the firstborn",
+      ],
+      answer: "The death of the firstborn (Exodus 12:29)",
+    },
   ],
   {
     quizTime: 60,
