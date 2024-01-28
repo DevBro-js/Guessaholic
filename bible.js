@@ -79,6 +79,12 @@ const bible = [
     },
 
     {
+      question: "Who ruled when Jesus was born?",
+      option: ["Pilate", "Herod", "Agrippa", "Festus"],
+      answer: "Herod (Matthew 2:1)",
+    },
+
+    {
       question: "Which of the apostles first suffered martyrdom?",
       option: ["Andrew", "James", "Thomas", "Paul"],
       answer: "James (Acts 12:2)",
@@ -290,6 +296,12 @@ const bible = [
     },
 
     {
+      question: "Who did Gideon fight against?",
+      option: ["Philistines", "Midians", "Moabites", "Ammonites"],
+      answer: "Midians (Judges 7:7)",
+    },
+
+    {
       question: "How many Philistines did Samson slay with a jaw bone?",
       option: ["1,000", "40", "666", "2,000"],
       answer: "1,000 (Judg 15:15)",
@@ -315,6 +327,44 @@ const bible = [
       option: ["Zelophehad", "Ishmael", "Esau", "Caleb"],
       answer: "Ishmael (Gen 17:20)",
     },
+
+    {
+      question: "Who was 13 years old when he was circumcised?",
+      option: ["Ishmael", "Moses", "David", "Elijah"],
+      answer: "Ishmael (Gen 17:23_25)",
+    },
+
+    {
+      question:
+        "What gives birth to sin after it has conceived according to the book of James?",
+      option: ["Death", "Negligence", "Desire", "None of them"],
+      answer: "Desire (James 1:15)",
+    },
+
+    {
+      question: "Which son of Abraham was born of Sarah?",
+      option: ["Ishmael", "Isaac", "No son was born", "Both Ishmael and Isaac"],
+      answer: "Isaac (gen 21:10)",
+    },
+
+    {
+      question: "How did God kill the Amorites in Israel for Joshua and the Israelites?",
+      option: ["Two angels", "Boils", "Lightning bolts", "Large hailstones"],
+      answer: "Large hailstones (Jos 10:11)",
+    },
+
+    {
+      question: "How many of the 10 lepers returned to Jesus after being cured?",
+      option: ["None of them", "1", "All of them", "3"],
+      answer: "1 (Luke 17:17_18)",
+    },
+
+    {
+      question: "Who was king of Babylon after Nebuchadnezzar?",
+      option: ["Ahasuerus", "Darius", "Ehud", "Belshazzar"],
+      answer: "Belshazzar (Daniel 5:2)",
+    },
+
 
     {
       question: "What were the three major promises God gave to Abraham?",
