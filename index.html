@@ -17,7 +17,8 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Quiz App</title>
-    <script defer src="capital.js"></script>
+    <script defer src="stateCapitals.js"></script>
+    <script defer src="countryCapitals.js"></script>
     <script defer src="governor.js"></script>
     <script defer src="slogan.js"></script>
     <script defer src="flag.js"></script>
@@ -58,14 +59,20 @@
             <div class="quiz__type">
               <div class="quiz__selections">
                 <select name="quiz-type" id="quizType">
-                  <option value="selected" selected>Select quiz type</option>
-                  <option value="capital" data-value="0">Guess Capital</option>
+                  <option value="selected" selected>Select Quiz Type</option>
+                  <option value="stateCapital" data-value="0">
+                    Guess State Capital
+                  </option>
                   <option value="bible" data-value="1">Guess Bible</option>
                   <option value="flag" data-value="2">Guess Flag</option>
                   <option value="slogan" data-value="3">
                     Guess State Slogan
                   </option>
-                  <option value="governor" data-value="4">
+
+                  <option value="countryCapital" data-value="4">
+                    Guess Country Capital
+                  </option>
+                  <option value="governor" data-value="5">
                     Guess Governor
                   </option>
                 </select>

@@ -49,7 +49,14 @@ const selectedQuestion = [];
 const f = [];
 const h = [];
 
-const globalArray = { capital, flag, governor, slogan, bible };
+const globalArray = {
+  stateCapital,
+  flag,
+  governor,
+  countryCapital,
+  slogan,
+  bible,
+};
 
 const app = function () {
   let quizNumber = 1;
