@@ -490,6 +490,233 @@ const bible = [
       ],
       answer: "The death of the firstborn (Exodus 12:29)",
     },
+
+    {
+      question:
+        "What did the lords of the philistines offer Delilah for revealing the secret of Samson's strength?",
+      option: [
+        "1100 pieces of silver each",
+        "10000 pieces of silver each",
+        "500 pieces of silver each",
+        "5000 pieces of silver each",
+      ],
+      answer: "1100 pieces of silver each (Judges 16:5)",
+    },
+
+    {
+      question: "The disciple who was a tax collector is known as?",
+      option: ["Matthew", "Peter", "Judas Iscariot", "Bartholomew"],
+      answer: "Matthew",
+    },
+
+    {
+      question: "The disciple who was a tax collector is known as?",
+      option: ["Matthew", "Peter", "Judas Iscariot", "Bartholomew"],
+      answer: "Matthew",
+    },
+
+    {
+      question: "In whose Gospels do the Beatitudes appear",
+      option: [
+        "Matthew and Mark",
+        "Peter and Act",
+        "Mark and John",
+        "Matthew and Luke",
+      ],
+      answer: "Matthew and Luke",
+    },
+
+    {
+      question: "What was it that Jacob had to do in order to marry Rachel?",
+      option: [
+        "Serve Laban for 14 years",
+        "Fight his brother",
+        "Betray his brother",
+        "Kill a deer",
+      ],
+      answer: "Serve Laban for 14 years (Genesis 29:16_30)",
+    },
+
+    {
+      question:
+        "The destruction of Nineveh was the fulfillment of whose prophecy?",
+      option: [
+        "The prophet Jonah",
+        "The prophet Isaiah",
+        "The prophet Daniel",
+        "The prophet Nahum",
+      ],
+      answer: "The prophet Nahum (Nah 3)",
+    },
+
+    {
+      question: "Which prophet was sent as a missionary to the Ninevites?",
+      option: ["Jonah", "Paul", "Elon", "Malachi"],
+      answer: "Jonah (Jonah 1:1_2)",
+    },
+
+    {
+      question: "Which of the prophets was carried captive to Babylon?",
+      option: ["Nehemiah", "Ezekiel", "Malachi", "Zechariah"],
+      answer: "Ezekiel (Ezek 1:1)",
+    },
+
+    {
+      question:
+        "Which prophet foretold the result of the ten tribes of Israel?",
+      option: ["Isaiah", "Nahum", "Ahijah", "Nehemiah"],
+      answer: "Ahijah (1 Kgs 11:29)",
+    },
+
+    {
+      question: "What was the first prophecy?",
+      option: [
+        "The end of the age",
+        "The victory over Satan of the seed of the woman",
+        "The second coming of Christ",
+        "The destruction of the temple",
+      ],
+      answer: "The victory over Satan of the seed of the woman (Gen 3:15)",
+    },
+
+    {
+      question:
+        "Which king was on the throne of Judah when he was only eight years old?",
+      option: ["Jehoiachin", "Adonibezek", "Joash", "David"],
+      answer: "Jehoiachin (2 Chron 36:9)",
+    },
+
+    {
+      question:
+        "Which king of Israel followed heathen practices by burning his children in the fire?",
+      option: ["Abimelech", "Ahab", "Menahem", "Ahaz"],
+      answer: "Ahaz (2 Chron 28:3)",
+    },
+
+    {
+      question:
+        "Who was made king of Judah at seven years of age after having been hidden for six years?",
+      option: ["Jehoshaphat", "Hosea", "Joash", "Ahaz"],
+      answer: "Joash (2 Chron 23:11)",
+    },
+
+    {
+      question: "Which king's name meant peaceable?",
+      option: ["Solomon", "David", "Josiah", "Manasseh"],
+      answer: "Solomon (1 Chron 22:9)",
+    },
+
+    {
+      question: "What does Paul say is the fulfillment of the law?",
+      option: ["Righteousness", "Patience", "Love", "Faith"],
+      answer: "Love (Rom 13:10)",
+    },
+
+    {
+      question: "What was Paul's occupation?",
+      option: ["Carpentry", "Tentmaking", "Stonemasonry", "Fishing"],
+      answer: "Tentmaking (Acts 18:3)",
+    },
+
+    {
+      question: "Where was Paul stoned?",
+      option: ["Lystra", "Melita", "Damascus", "Galilee"],
+      answer: "Lystra (Acts 14:19)",
+    },
+
+    {
+      question: "Which Athenian judge was converted under Paul's preaching?",
+      option: ["Eunice", "Candace", "Dionysius", "Eubulus"],
+      answer: "Dionysius (Acts 17:34)",
+    },
+
+    {
+      question:
+        "How did Paul escape Damascus when the Jews were trying to kill him?",
+      option: [
+        "He was let down from the city walls in a basket",
+        "An angel lifted him out",
+        "An earthquake created the means of escape",
+        "Silas came to his rescue",
+      ],
+      answer: "He was let down from the city walls in a basket (Acts 9:25)",
+    },
+
+    {
+      question:
+        "Which king of Judah was overtaken by an invading army and had his eyes put out?",
+      option: ["Rehoboam", "Abijah", "Jehoram", "Zedekiah"],
+      answer: "Zedekiah (2 Kgs 25:7)",
+    },
+
+    {
+      question: "Which king was killed by his own sons",
+      option: ["Manasseh", "Sennacherib", "Ahaz", "Jotham"],
+      answer: "Sennacherib (2 Kgs 19:36)",
+    },
+
+    {
+      question: "Who was the most wicked king of Israel?",
+      option: ["Ahab", "Abimelech", "Manasseh", "Menahem"],
+      answer: "Ahab (1 Kgs 21:25)",
+    },
+
+    {
+      question: "What were Solomon's other names?",
+      option: [
+        "Jedediah and Lemuel",
+        "Joab and Lemuel",
+        "Jedediah and Joab",
+        "Lemuel and Jeremiah",
+      ],
+      answer: "Jedediah and Lemuel (2 Sam 12:25, Prov 31:1)",
+    },
+
+    {
+      question:
+        "What was the total number of the children of Israel that went down to Egypt?",
+      option: ["70", "1000", "53", "560"],
+      answer: "70 (Gen 46:27)",
+    },
+
+    {
+      question: "How long were the children of Israel in captivity?",
+      option: ["70 years", "49 years", "59 years", "100 years"],
+      answer: "70 years (Jer 25:11)",
+    },
+
+    {
+      question:
+        "By whom were the children of Israel carried captive into Assyria?",
+      option: ["Nebuchadnezzar", "Tiglathpileser", "Darius", "Ahaz"],
+      answer: "Tiglathpileser (2 Kgs 15:29)",
+    },
+
+    {
+      question: "Upon what mountain was Israel cursed for disobedience?",
+      option: ["Mount Moriah", "Mount Zion", "Mount Carmel", "Mount Ebal"],
+      answer: "Mount Ebal (Deut 27:13)",
+    },
+
+    {
+      question:
+        "How long did the children of Israel journey in the wilderness of Shur before they found water?",
+      option: ["5 days", "15 days", "3 days", "7 days"],
+      answer: "3 days (Exod 15:22)",
+    },
+
+    {
+      question:
+        "How were the children of Israel guided in their forty years of wandering in the wilderness?",
+      option: [
+        "By a pillar of cloud by day and a pillar of fire by night",
+        "By the voice of God",
+        "By Moses",
+        "By Aaron's rod",
+      ],
+      answer:
+        "By a pillar of cloud by day and a pillar of fire by night (Exod 13:21)",
+    },
   ],
   {
     quizTime: 60,
