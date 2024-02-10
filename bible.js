@@ -198,13 +198,13 @@ const bible = [
         "Lazarus",
         "The son of Zarephath's daughter",
       ],
-      answer: "The son of Zarephath’s daughter (1 Kgs 17:21)",
+      answer: "The son of Zarephath's daughter (1 Kgs 17:21)",
     },
 
     {
       question:
         "Who partook of a meal prepared by an angel, and was sustained forty days and nights while in the mountain?",
-      option: ["Ebonyi", "Joseph", "Manoah", " Elijah"],
+      option: ["Noah", "Joseph", "Manoah", " Elijah"],
       answer: " Elijah (1 Kgs 19:8_9)",
     },
 

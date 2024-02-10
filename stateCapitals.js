@@ -27,7 +27,7 @@ const stateCapital = [
     },
 
     {
-      question: "Capital of Bauchi State",
+      question: "Capi tal of Bauchi State",
       option: ["Kwara", "Ikeja", "Bauchi", "Lagos"],
       answer: "Bauchi",
     },
